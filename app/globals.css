@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-navy: var(--navy);
+  --color-gold: var(--gold);
+  --color-oxblood: var(--oxblood);
+  --color-parchment: var(--parchment);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-dm-serif);
+  --font-mono: var(--font-dm-mono);
+}
+
+:root {
+  color-scheme: light;
+  --background: #f7f5ef;
+  --foreground: #102441;
+  --card: #ffffff;
+  --card-foreground: #102441;
+  --border: #d9d7cf;
+  --input: #d9d7cf;
+  --ring: #a73b3f;
+  --primary: #102441;
+  --primary-foreground: #f7f5ef;
+  --navy: #102441;
+  --gold: #d6b86a;
+  --oxblood: #922f3b;
+  --parchment: #ebe7dc;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--background); }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-sans); }
+::selection { background: var(--gold); color: var(--navy); }
+.eyebrow { color: var(--oxblood); font-size: 0.68rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; }
+.font-serif em { letter-spacing: -.015em; }
