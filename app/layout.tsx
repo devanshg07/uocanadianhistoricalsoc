@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   description: 'A student society for discussing, researching, exploring, and debating Canadian and Québécois history.',
   generator: 'v0.app',
   icons: {
-    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-888HuIZBteRqzz3w69d2ahGv80Awtc.png',
-    shortcut: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-888HuIZBteRqzz3w69d2ahGv80Awtc.png',
-    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-888HuIZBteRqzz3w69d2ahGv80Awtc.png',
+    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DUlJbVnyqbaY61P5I0oEYeIcGnnpww.png',
+    shortcut: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DUlJbVnyqbaY61P5I0oEYeIcGnnpww.png',
+    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DUlJbVnyqbaY61P5I0oEYeIcGnnpww.png',
   },
 }
 
